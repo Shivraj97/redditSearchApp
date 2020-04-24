@@ -4,6 +4,9 @@
   "description": "Reddit Search App",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy": "rm -rf dist/ && npm build && gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Shivraj97/redditSearchApp/issues"
   },
-  "homepage": "https://github.com/Shivraj97/redditSearchApp#readme"
+  "homepage": "https://shivraj97.github.io/redditSearchApp",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
