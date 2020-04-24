@@ -20,6 +20,7 @@
   },
   "homepage": "https://shivraj97.github.io/redditSearchApp",
   "dependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "redditapi": "^1.0.1"
   }
 }
